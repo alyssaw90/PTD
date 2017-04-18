@@ -1,0 +1,26 @@
+@font-face {
+    font-family: LeagueSpartan;
+    src: url('fonts/LeagueSpartan-Bold.otf');
+}
+
+nav {
+    background-color: #ffd28a;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a{
+    text-transform: uppercase;
+    font-family: 'LeagueSpartan';
+    color: #000;
+    font-size: 30px;
+    /*text-decoration: none;*/
+    letter-spacing: 10px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
