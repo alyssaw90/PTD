@@ -37,18 +37,24 @@ ul li a:hover {
     color: #fff;
 }
 
-.whatIsBody {
+.whatIsBody,
+.teamBody,
+.playBody {
     background-color: #ffd28a;
 }
 
-.whatIsBody .whatIsContent {
+.whatIsBody .whatIsContent,
+.teamBody .teamContent,
+.playBody, .playContent {
     font-family: 'LeagueSpartan';
     text-transform: uppercase;  
     color: #fff;
     text-align: center; 
 }
 
-.whatIsBody .whatIsContent h1 {
+.whatIsBody .whatIsContent h1,
+.teamBody .teamContent h1,
+.playBody .playContent h1 {
     letter-spacing: 10px;
 }
 
@@ -56,3 +62,15 @@ ul li a:hover {
     letter-spacing: 7px;    
     font-size: 24px;
 }
+
+.backLink {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 7px;    
+}
+
+.backLink:hover {
+    color: #fff;
+    text-decoration: none;  
+}
+
