@@ -3,12 +3,24 @@
     src: url('fonts/LeagueSpartan-Bold.otf');
 }
 
+body {
+    background-color: #e6e6e6;
+}
+
 nav {
     background-color: #ffd28a;
+    width: 60%;
+    float: right;
+    height: 100%;   
+    padding: 100px 60px;
 }
 
 ul {
     list-style: none;
+}
+
+ul li {
+    margin-bottom: 20px;
 }
 
 ul li a{
