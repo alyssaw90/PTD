@@ -12,7 +12,7 @@ nav {
     width: 60%;
     float: right;
     height: 100%;   
-    padding: 100px 60px;
+    padding: 100px 60px;    
 }
 
 ul {
@@ -35,4 +35,24 @@ ul li a{
 ul li a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+.whatIsBody {
+    background-color: #ffd28a;
+}
+
+.whatIsBody .whatIsContent {
+    font-family: 'LeagueSpartan';
+    text-transform: uppercase;  
+    color: #fff;
+    text-align: center; 
+}
+
+.whatIsBody .whatIsContent h1 {
+    letter-spacing: 10px;
+}
+
+.whatIsBody .whatIsContent p {
+    letter-spacing: 7px;    
+    font-size: 24px;
 }
