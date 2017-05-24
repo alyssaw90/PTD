@@ -57,6 +57,10 @@ ul li a:hover {
     text-transform: uppercase;  
     color: #fff;
     text-align: center; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
 
 .whatIsBody .whatIsContent h1,
