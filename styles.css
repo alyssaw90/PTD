@@ -94,3 +94,17 @@ ul li a:hover {
     text-decoration: none;  
 }
 
+@media all and (max-width: 579px) {
+    iframe {
+        width: 400px;
+        height:270px;
+    }
+}
+
+@media all and (max-width: 429px) {
+    iframe {
+        width: 300px;
+        height:200px;
+    }
+}
+
